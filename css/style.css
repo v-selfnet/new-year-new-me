@@ -4,10 +4,12 @@
 /* Header */
 .header{
     background-image: url(/images/banner/banner2.png);
+    background-repeat: no-repeat;
     height: 800px;
     display: flex;
     justify-content: right;
     align-items: center;
+
 }
 .header .item{
     /* border: 1px solid red; */
@@ -25,7 +27,7 @@
     font-size: 24px;
     margin-bottom: 50px;
 }
-.header .item .btn-primary{
+.btn-primary{
     text-align: center;
     font-size: 20px;
     height: 50px;
@@ -41,17 +43,17 @@
 }
 /* main section failure */
 .main-container{
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .sec-failure{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 50px 100px;
 }
 .sec-failure .content{
-    border: 1px solid green;
+    /* border: 1px solid green; */
     max-width: 400px;
 }
 .failure-title{
@@ -70,12 +72,12 @@
 }
 /* My Plans */
 .sec-myplans{
-    border: 1px solid red;
+    /* border: 1px solid red; */
    margin: 50px 100px;
    text-align: center;
 }
 .plan-container{
-    border: 1px solid rgb(17, 17, 17);
+    /* border: 1px solid rgb(17, 17, 17); */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -92,4 +94,76 @@
     font-size: 20px;
     margin-bottom: 20px;
 }
+.sec-watch{
+    margin: 50px 100px;
+    height:300px;
+    background-image: url(/images/watch.png),linear-gradient(to right, red, rgb(207, 207, 231));
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+.watch-title{
+    font-size: 25px;
+    font-weight: 800px;
+    width: 300px;
+    margin-left: 50px;
+    padding-top: 50px;
+}
+.btn-call{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.footer-content{
+    display:flex
+}
+.footer{
+    color:white;
+    background-color: black;
+}
+.footer-content{
+    /* border: 1px solid red; */
+    margin: 0 100px;
+}
+.footer-left{
+    margin: 100px 0px;
+    margin-right: 300px;
+}
+.footer-title{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.footer-left .description{
+    margin-bottom: 30px;
+    font-size: 20px;
+    margin-right: 50px;
+}
+.footer-email{
+    margin: 30px 0px;
+}
+.footer-fone{
+    margin: 30px 0px;
+}
+.footer-right{
+    margin: 100px 0px;
+}
+.footer-right h4{
+    font-size: 25px;
+    margin: 30px 0px;
+}
+.footer-right input{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.copyright{
+    background-color: darkgray;
+    height: 50px;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: 2px 3px 10px white;
+    text-align: center;
+}
+.copyright p{
+   padding-top: 20px;
+}
+
 
