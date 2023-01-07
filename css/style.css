@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+}
+/* Header */
+.header{
+    background-image: url(/images/banner/banner2.png);
+    height: 800px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.header .item{
+    /* border: 1px solid red; */
+    text-align: right;
+    max-width: 400px;
+    margin-right: 200px;
+}
+.header .item .title{
+    text-align: right;
+    font-size:60px;
+    margin-bottom: 50px;
+}
+.header .item .description{
+    text-align: right;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+.header .item .btn-primary{
+    text-align: center;
+    font-size: 20px;
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: coral;
+    color: aliceblue;
+    cursor: pointer;
+    border: none;
+}
+.header .item .btn-primary:hover{
+    background-color:chocolate
+}
+/* main section failure */
+.main-container{
+    border: 1px solid red;
+}
+.sec-failure{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 100px;
+}
+.sec-failure .content{
+    border: 1px solid green;
+    max-width: 400px;
+}
+.failure-title{
+    font-size: 50px;
+    margin-bottom: 30px;
+    padding-left: 25px;
+}
+.failure-description{
+    font-size: 20px;
+    margin-bottom: 30px;
+    padding-left: 25px;
+}
+.failure-list li{
+    line-height: 30px;
+    list-style-type:circle;
+}
+/* My Plans */
+.sec-myplans{
+    border: 1px solid red;
+   margin: 50px 100px;
+   text-align: center;
+}
+.plan-container{
+    border: 1px solid rgb(17, 17, 17);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.plan-title{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.plan-container .title{
+    font-size: 25px;
+    margin: 20px 0;
+}
+.plan-container .description{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
